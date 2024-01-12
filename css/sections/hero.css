@@ -1,0 +1,47 @@
+.hero{
+    
+    border: 1px solid var(--gold-color);
+    max-width: var(--max-width);
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    opacity: 0.8;
+   padding: 15vh 1vw 15vh 1vw;
+   
+   text-align: center;
+}
+.hero__welcom{
+    
+flex: 1;
+font-family:Arial, Helvetica,sans-serif;
+font-style:italic ;
+font-size: 3vw;
+
+color: var(--gold-color);
+width: 100%;
+h3{
+    letter-spacing: 0.1vw;
+}
+
+h4{
+    padding: 2vh 0;
+font-size: 25px;
+
+letter-spacing: 0.1vw;
+
+color: var(--pistachio-color);
+
+}
+button{
+    border-radius: 20px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border: 1px solid var(--gold-color);
+}
+
+
+}
+

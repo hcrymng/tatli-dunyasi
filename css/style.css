@@ -52,9 +52,11 @@ a{
 
 button{
 
-    background-color: var(--button-background-color);
-     font-family: var(--header-font);
-     color: var(--white-color);
+  
+     font-family: var(--logo-font);
+  background-color: transparent;
+  border: 2px solid var(--dark-coffe-color);
+  color: var(--white-color);
   font-weight: 500;
   font-size: 16px;
   text-transform: uppercase;
@@ -122,8 +124,8 @@ button{
 /*about media queries*/
 @media screen and (max-width: 750px){
   div.about{
-    background-image: url("/assets/about_img.png");
- background-color: white;
+    background-image: url("/assets/about-bg.png");
+ 
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -135,8 +137,7 @@ button{
   }
 
   div.about__text{
-    background-color: var(--black-color);
-    opacity: 0.9;
+    background-color: #000c;
     padding: 1%;
     h5, p{
       color: #dfd4c6;

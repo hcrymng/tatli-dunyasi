@@ -96,8 +96,10 @@ button{
 
 */
 /*header media queries */
-@media screen and (max-width: 900px){
-
+@media screen and (max-width: 1280px){
+.header__logo{
+  border: 3px solid var(--dark-coffe-color);
+}
 }
 @media screen and (max-width: 750px){
   header{
@@ -105,6 +107,7 @@ button{
   }
   .header__logo{
     font-size: 30px;
+    border: 2px solid var(--dark-coffe-color);
   }
   .header__menu li{
     font-size: 16px;
@@ -137,7 +140,7 @@ button{
   }
 
   div.about__text{
-    background-color: #000c;
+    background-color: #000a;
     padding: 1%;
     h5, p{
       color: #dfd4c6;

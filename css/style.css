@@ -13,6 +13,7 @@
 @import url("sections/footer.css");
 @import url("sections/hero.css");
 @import url("sections/menu.css");
+@import url("sections/kampanya.css");
 /* css variable imports */
 :root{
 --logo-font-romanese:'Romanesco', cursive;
@@ -48,6 +49,7 @@ a{
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  
 }
 
 button{
@@ -116,7 +118,17 @@ button{
 }
 
 
-/*hero media queries*/
+/*kampanya media queries*/
+@media screen and (max-width: 750px){
+.kampanya__container{
+  flex-direction: column;
+  div{
+    width: 100%;
+  }
+}
+}
+  
+
 /*menu media queries*/
 @media screen and (max-width: 1280px){
 

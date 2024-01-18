@@ -140,40 +140,23 @@ button{
 /*menu media queries*/
 @media screen and (max-width: 1280px){
 
-  .menu__container{
-    flex-direction: column;
-  }
+  
 }
 /*about media queries*/
 @media screen and (max-width: 750px){
-  div.about{
-    background-image: url("/assets/about-bg.png");
- 
-    background-repeat: no-repeat;
-    background-size: cover;
+
+   
    
   }
   
  
-  div.about__img{
-    display: none;
-  }
-
-  div.about__text{
-    background-color: #000a;
-    padding: 1%;
-    h5, p{
-      color: #dfd4c6;
-
-text-align: center;
-    }
-    /*background-image: url("/assets/about_plate.png");
  
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-bottom: 3vh; */
-    
+
+  
+/*footer media queries*/
+@media screen and (max-width: 1050px) {
+  .footer__container{
+    flex-direction: column;
   }
   
 }
-/*footer media queries*/

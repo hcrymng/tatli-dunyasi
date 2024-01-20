@@ -46,14 +46,7 @@ letter-spacing: 0.1vw;
 color: var(--color-cream);
 
 }
-button{
-   width: 300px;
-   
-    border: 1px solid var(--dark-coffe-color);
-    letter-spacing: 0.1vw;
-    
-   
-}
+
 
 
 }

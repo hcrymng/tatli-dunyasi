@@ -1,104 +1,129 @@
-.footer{
+.footer {
 
     width: 100%;
-    background-image: url("/assets/about-bg.png");
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: var(--color-cream);
-   display: flex;
-   flex-direction: column;
-
-   justify-content:space-evenly;
-   font-family: var(--header-font);
  
-   .footer__container{
-  
-
-    text-align: center;
-    color:var(--cream-color);
-
+   background-color: #000;
+    color: var(--color-cream);
     display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-background-color: #000e;
+    flex-direction: column;
+
+
+    font-family: var(--header-font);
+
+    h1 {
+        line-height: 20vh;
+font-family: var(--logo-font);
+        text-align: center;
+        background-color: #000c;
+        width: 100%;
+        text-align: center;
+        font-size: 10vw;
+       
+
+    }
+
+    .footer__container {
+     min-height: 40vh;
+        background-image: linear-gradient(0deg, var(--dark-coffe-color), var(--black-color));
+        color: var(--cream-color);
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+
+    }
+
+
    
 
-   }
-   h2{
-    text-transform: uppercase;
-
-  padding:1vw 1vh;
-   }
-   h3{
-    line-height: 40px;
-   }
-   .about{
-    background-image:linear-gradient(0deg,  var(--dark-coffe-color), var(--black-color));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-
-    border-radius: 15%;
-height: 100%;
-   flex-wrap:wrap ;
-
-flex: 3;
-
-    .about__text{
-      
-        padding:10%;
+    .about {
        
-    
-    
-      text-align: center;
-        h5{
-            color:inherit;
-            font-family: var(--body-font);
-      
-        text-transform: uppercase;
+        
+        padding: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-            font-size: 25px;
-            line-height: 18.75px;
-            font-weight: 500;
+
+        height: 100%;
+        flex-wrap: wrap;
+
+        flex: 1;
+
+        .about__text {
+
+
+
+
+
+            text-align: center;
+
+            h5 {
+                color: inherit;
+                font-family: var(--body-font);
+
+                text-transform: uppercase;
+
+                font-size: 25px;
+                line-height: 18.75px;
+                font-weight: 500;
+            }
+
+            p {
+                font-family: var(--header-font);
+
+
+
+                font-size: 1rem;
+                line-height: 30px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .contact {
+        padding: 5%;
+        height: 100%;
+        flex: 1;
+background-color: var(--black-color);
+       height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h2 {
+            text-transform: uppercase;
+    color: var(--dark-coffe-color);
+    line-height: 5vh;
+            padding: 2vw auto;
+            background-color:navajowhite;
+            
+        }
+    
+        h3 {
+            line-height: 40px;
+            color: var(--dark-coffe-color);
         }
         p{
-            font-family: var(--header-font);
-    
-       
-          
-            font-size: 1rem;
-            line-height: 30px;
-            font-weight: 400;
+            color: var(--white-color);
+        }
+
+    }
+
+    .copyright {
+        background-color: #000c;
+        height: max-content;
+        width: 100%;
+
+
+        p {
+            line-height: 3vh;
+            text-align: center;
         }
     }
-   }
-.contact{
-
-    padding:10%;
-   
-    border-radius: 10%;
-    background-image:linear-gradient(0deg,  var(--dark-coffe-color), var(--black-color));
-    flex: 1;
-    text-align:center;
-   
-  
-    height: 100%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-
-}
-   .copyright{
-
-    height: max-content;
-    width: 100%;
-background-color: var(--black-color);
-    p{
-        line-height: 3vh;
-        text-align: center;
-    }
-   }
 }

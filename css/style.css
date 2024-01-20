@@ -119,7 +119,9 @@ button{
 /*header media queries*/
 @media screen and (max-width:750px){
   
-
+  div.hero{
+    display: none;
+      }
   
 }
 /*kampanya media queries*/
